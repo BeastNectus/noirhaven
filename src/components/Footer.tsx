@@ -86,7 +86,10 @@ export default function Footer() {
                 </div>
 
                 <div className="mt-16 flex flex-col gap-5 border-t border-white/10 pt-8 text-sm text-[#7d756b] md:flex-row md:items-center md:justify-between">
-                    <p>&copy; {new Date().getFullYear()} Noir Haven. All rights reserved.</p>
+                    <div className="grid gap-2">
+                        <p>&copy; {new Date().getFullYear()} Noir Haven. All rights reserved.</p>
+                        <p>Developed by John Charles Frederick Mamanao.</p>
+                    </div>
                     <div className="flex gap-6">
                         <Link href="#" className="transition-colors hover:text-[#f7f1e6]">
                             Privacy Policy
