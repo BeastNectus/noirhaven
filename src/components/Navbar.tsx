@@ -42,10 +42,8 @@ export default function Navbar() {
                 animate={{
                     backgroundColor: isCompressed ? "rgba(7, 7, 6, 0.78)" : "rgba(7, 7, 6, 0)",
                     backdropFilter: isCompressed ? "blur(18px)" : "blur(0px)",
-                    borderColor: isCompressed ? "rgba(216, 185, 120, 0.16)" : "rgba(216, 185, 120, 0)",
                 }}
                 transition={{ duration: 0.3 }}
-                style={{ borderBottomWidth: 1 }}
             >
                 <div className="mx-auto flex max-w-7xl items-center justify-between gap-6">
                     <Link href="/" className="group flex items-baseline gap-3" aria-label="Noir Haven home">
